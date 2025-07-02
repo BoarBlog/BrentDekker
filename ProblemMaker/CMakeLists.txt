@@ -7,11 +7,8 @@
 #--------------------------------------------------------
 
 # Create the main application
-cmake_minimum_required(VERSION 3.0.0)
-project(ProblemMaker VERSION 0.1.0)
-
-# Enable Testing
-enable_testing()
+cmake_minimum_required(VERSION 3.12.0)
+project(ProblemMaker VERSION 1.0.0)
 
 # Set the correct version of C++
 set(CMAKE_CXX_STANDARD 17)
@@ -35,6 +32,9 @@ include_directories( ${OpenCV_INCLUDE_DIRS} )
 
 # Include OpenSSL
 find_package(OpenSSL REQUIRED)
+
+# Include SymEngine
+find_package(SymEngine REQUIRED)
 
 # Add the available subfolders
 add_subdirectory(ProblemMakerLib)

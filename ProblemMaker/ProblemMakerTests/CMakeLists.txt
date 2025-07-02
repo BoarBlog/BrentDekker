@@ -18,7 +18,7 @@ add_executable(ProblemMakerTests
 )
 
 # Add link libraries
-target_link_libraries(ProblemMakerTests ProblemMakerLib NVLib ${OpenCV_LIBS} OpenSSL::SSL uuid GTest::Main)
+target_link_libraries(ProblemMakerTests ProblemMakerLib NVLib ${OpenCV_LIBS} ${SYMENGINE_LIBRARIES} OpenSSL::SSL uuid GTest::Main)
 
 # Find the associated unit tests
 gtest_discover_tests(ProblemMakerTests)
