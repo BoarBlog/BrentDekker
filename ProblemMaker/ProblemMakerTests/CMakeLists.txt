@@ -13,8 +13,9 @@ find_package(GTest REQUIRED)
 include_directories("../")
 
 # Create the executable
-add_executable(ProblemMakerTests
-    Tests/Example_Tests.cpp
+add_executable (ProblemMakerTests
+	Tests/Example_Tests.cpp
+	Tests/Polynomial_Tests.cpp
 )
 
 # Add link libraries

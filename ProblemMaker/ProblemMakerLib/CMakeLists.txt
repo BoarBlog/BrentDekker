@@ -10,6 +10,8 @@
 include_directories("../" "${LIBRARY_BASE}/NVLib")
 
 # Create Library
-add_library(ProblemMakerLib STATIC
-    ArgUtils.cpp
+add_library (ProblemMakerLib STATIC
+	ArgUtils.cpp
+	Polynomial.cpp
+	HelperUtils.cpp
 )

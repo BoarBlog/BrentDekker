@@ -1,0 +1,37 @@
+<?xml version="1.0" ?> 
+
+<class> 
+
+<namespace>NVL_App</namespace> 
+<solution>ProblemMakerLib</solution> 
+<name>HelperUtils</name> 
+<description>A set of utilities for the generation of problems</description> 
+
+<includes>    
+    <include name="iostream" namespace="std" local="false" /> 
+    <include name="opencv2/opencv.hpp" namespace="cv" local="false" />
+    <include name="NVLib/RandomUtils.h" local="false" />
+    <include name="Polynomial.h" local="true" />
+</includes> 
+
+<methods>    
+
+<!-- Generate Roots -->
+<method section="Roots" modifiers="static" access="public" return="vector<double>" name="GetRoots" description="Generate a set of random roots" inline="false"> 
+    <parameter type="int" name="count" description="The number of roots that we are generating" /> 
+</method> 
+
+<!-- Generate Equation -->
+<method section="Equation" modifiers="static" access="public" return="string" name="GetEquation" description="Generate the equation" inline="false"> 
+    <parameter type="const vector<double>&" name="roots" description="The roots that we want to from an equation" /> 
+</method> 
+
+<!-- Get Bracket -->
+<method section="Bracket" modifiers="static" access="public" return="Vec2d" name="GetBracket" description="Generate a bracket" inline="false"> 
+    <parameter type="Polynomial *" name="polynomial" description="The polynomial that we are getting the bracket for" />
+    <parameter type="double" name="root" description="The root that we want a bracket that we are dealing with" /> 
+</method> 
+
+</methods> 
+
+</class> 
