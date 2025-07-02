@@ -14,6 +14,7 @@ include_directories("../")
 
 # Create the executable
 add_executable (ProblemMakerTests
+	TestHelpers/TestUtils.cpp
 	Tests/Example_Tests.cpp
 	Tests/Polynomial_Tests.cpp
 )
