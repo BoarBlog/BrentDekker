@@ -20,6 +20,8 @@ using namespace NVL_App;
  */
 Engine::Engine(NVLib::Logger* logger, NVLib::Parameters* parameters) 
 {
+    NVLib::RandomUtils::TimeSeedRandomNumbers();
+
     _logger = logger; _parameters = parameters;
 
     _logger->Log(1, "Creating a path helper");
@@ -45,5 +47,12 @@ Engine::~Engine()
  */
 void Engine::Run()
 {
-    // TODO: Execution Logic
+    for (auto i = 0; i < 100; i++) 
+    {
+        auto roots = HelperUtils::GetRoots(5);
+        cout << "Roots: ";
+        for (const auto& root : roots) cout << root << " ";
+        auto equation = HelperUtils::GetEquation(roots);     
+        cout << ": " << equation << endl;
+    }
 }

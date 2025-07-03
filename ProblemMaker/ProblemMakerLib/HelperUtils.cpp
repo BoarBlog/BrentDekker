@@ -20,7 +20,24 @@ using namespace NVL_App;
  */
 vector<double> HelperUtils::GetRoots(int count)
 {
-	throw runtime_error("Not implemented");
+	auto duplicates = unordered_set<int>();
+
+	while (duplicates.size() < count)
+	{
+		int root = NVLib::RandomUtils::GetInteger(-50, 50);
+		duplicates.insert(root);
+	}
+
+	auto result = vector<double>(duplicates.size());
+	auto it = duplicates.begin();
+	for (size_t i = 0; i < result.size(); ++i, ++it)
+	{
+		result[i] = *it;
+	}
+	
+	sort(result.begin(), result.end());
+
+	return result;
 }
 
 //--------------------------------------------------
@@ -34,7 +51,19 @@ vector<double> HelperUtils::GetRoots(int count)
  */
 string HelperUtils::GetEquation(const vector<double>& roots)
 {
-	throw runtime_error("Not implemented");
+	auto x = SymEngine::Expression("x");
+
+	if (roots.size() < 3) throw runtime_error("At least 3 roots are required to form a polynomial equation.");
+
+	auto baseTerm = x + roots[0];
+
+	for (size_t i = 1; i < roots.size(); ++i)
+	{
+		auto nextTerm = x + roots[i];
+		baseTerm = baseTerm * nextTerm;
+	}
+
+	return SymEngine::expand(baseTerm).get_basic()->__str__();
 }
 
 //--------------------------------------------------

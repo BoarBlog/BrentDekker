@@ -8,13 +8,20 @@
 
 #pragma once
 
+#include <unordered_set>
 #include <iostream>
 using namespace std;
 
 #include <opencv2/opencv.hpp>
 using namespace cv;
 
+#include <symengine/expression.h>
+#include <symengine/add.h>
+#include <symengine/basic.h>
+#include <symengine/symengine_casts.h>
+
 #include <NVLib/RandomUtils.h>
+
 #include "Polynomial.h"
 
 namespace NVL_App
