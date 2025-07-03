@@ -8,6 +8,7 @@
 
 #pragma once
 
+#include <unordered_map>
 #include <iostream>
 using namespace std;
 
@@ -26,5 +27,9 @@ namespace NVL_App
 			double Evaluate(double x);
 
 			inline vector<double>& GetCoeffs() { return _coeffs; }
+		private:
+			void ParseEquation(const string& equation);
+			double ReadNumber(const string& equation, size_t& pos);
+			int ReadPower(const string& equation, size_t& pos);
 	};
 }
