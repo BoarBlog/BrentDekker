@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<problem>
+  <coeffs>
+    -244618248. 6613865. 321436. -5154. -76. 1.</coeffs>
+  <bracket>
+    -36.039999999999999 58.039999999999999</bracket>
+  <root>23.</root></problem>
+<problem>
+  <coeffs>
+    18779040. 1763154. -65859. -3163. 27. 1.</coeffs>
+  <bracket>
+    -34.420000000000002 22.420000000000002</bracket>
+  <root>-9.</root></problem>
+<problem>
+  <coeffs>
+    13953060. -226152. -116955. 7443. -157. 1.</coeffs>
+  <bracket>
+    22.079999999999998 29.920000000000002</bracket>
+  <root>27.</root></problem>
+<problem>
+  <coeffs>
+    108340320. 1038292. -452677. -7557. 53. 1.</coeffs>
+  <bracket>
+    -67.170000000000002 14.17</bracket>
+  <root>-17.</root></problem>
+<problem>
+  <coeffs>
+    -8436960. 2128068. -184829. 7379. -139. 1.</coeffs>
+  <bracket>
+    27.039999999999999 30.960000000000001</bracket>
+  <root>28.</root></problem>
+<problem>
+  <coeffs>
+    -7638400. -4192880. -181828. 2776. 137. 1.</coeffs>
+  <bracket>
+    -61.399999999999999 -2.6000000000000001</bracket>
+  <root>-20.</root></problem>
+<problem>
+  <coeffs>
+    -12359576. 12174772. 191806. -6953. -50. 1.</coeffs>
+  <bracket>
+    -37. 61.</bracket>
+  <root>1.</root></problem>
+<problem>
+  <coeffs>
+    251209728. 30615456. -194356. -11857. 28. 1.</coeffs>
+  <bracket>
+    -62.770000000000003 57.770000000000003</bracket>
+  <root>-8.</root></problem>
+<problem>
+  <coeffs>
+    -672692040. -7715889. 850886. 26048. 274. 1.</coeffs>
+  <bracket>
+    -80.780000000000001 -59.219999999999999</bracket>
+  <root>-72.</root></problem>
+<problem>
+  <coeffs>
+    435878784. 25051840. -149214. -10979. 12. 1.</coeffs>
+  <bracket>
+    -51.880000000000003 57.880000000000003</bracket>
+  <root>-18.</root></problem>
+<problem>
+  <coeffs>
+    -95916744. -21057070. 727237. -1371. -133. 1.</coeffs>
+  <bracket>
+    -3.1899999999999999 76.189999999999998</bracket>
+  <root>54.</root></problem>
+<problem>
+  <coeffs>
+    105420315. 6432209. -387718. -8850. 43. 1.</coeffs>
+  <bracket>
+    -58.200000000000003 20.199999999999999</bracket>
+  <root>-11.</root></problem>
+<problem>
+  <coeffs>
+    -508980340. -36588599. -571912. 6262. 188. 1.</coeffs>
+  <bracket>
+    -84.379999999999995 -23.620000000000001</bracket>
+  <root>-44.</root></problem>
+<problem>
+  <coeffs>
+    44702112. -7196636. 191805. 2035. -117. 1.</coeffs>
+  <bracket>
+    8.4299999999999997 50.57</bracket>
+  <root>49.</root></problem>
+<problem>
+  <coeffs>
+    -19152. 27834. -8191. -511. 19. 1.</coeffs>
+  <bracket>
+    -18.789999999999999 1.79</bracket>
+  <root>1.</root></problem>
+<problem>
+  <coeffs>
+    -12833550. -2688633. -72346. 3992. 136. 1.</coeffs>
+  <bracket>
+    -56.490000000000002 -6.5099999999999998</bracket>
+  <root>-19.</root></problem>
+<problem>
+  <coeffs>
+    12398400. -2408160. -172828. -436. 103. 1.</coeffs>
+  <bracket>
+    -29.66 3.6600000000000001</bracket>
+  <root>-28.</root></problem>
+<problem>
+  <coeffs>
+    16659490. 17750959. 1117474. 26272. 268. 1.</coeffs>
+  <bracket>
+    -84.579999999999998 -43.420000000000002</bracket>
+  <root>-53.</root></problem>
+<problem>
+  <coeffs>
+    -482137920. -44800848. -827793. 3503. 177. 1.</coeffs>
+  <bracket>
+    -87.269999999999996 -15.73</bracket>
+  <root>-57.</root></problem>
+<problem>
+  <coeffs>
+    -9635472. -1623600. 33448. 6984. 159. 1.</coeffs>
+  <bracket>
+    -65.400000000000006 -6.5999999999999996</bracket>
+  <root>-22.</root></problem>
+<problem>
+  <coeffs>
+    57684000. 13210550. 311215. -5187. -91. 1.</coeffs>
+  <bracket>
+    -31.870000000000001 78.870000000000005</bracket>
+  <root>-5.</root></problem>
+<problem>
+  <coeffs>
+    68569670. 2261307. -265682. -1372. 108. 1.</coeffs>
+  <bracket>
+    -70.060000000000002 22.059999999999999</bracket>
+  <root>-13.</root></problem>
+<problem>
+  <coeffs>
+    -58758336. 9495240. -209342. -7801. 38. 1.</coeffs>
+  <bracket>
+    -58.219999999999999 18.219999999999999</bracket>
+  <root>8.</root></problem>
+<problem>
+  <coeffs>
+    706699840. -51133988. 1082113. -2357. -137. 1.</coeffs>
+  <bracket>
+    29.48 76.519999999999996</bracket>
+  <root>43.</root></problem>
+<problem>
+  <coeffs>
+    -1909001328. 28144252. 800456. -10977. -76. 1.</coeffs>
+  <bracket>
+    -60.560000000000002 80.560000000000002</bracket>
+  <root>52.</root></problem>
+<problem>
+  <coeffs>
+    -327549600. -22511408. -318902. 6603. 178. 1.</coeffs>
+  <bracket>
+    -66.609999999999999 -28.390000000000001</bracket>
+  <root>-36.</root></problem>
+<problem>
+  <coeffs>
+    -42450408. 7823196. -523334. 15653. -208. 1.</coeffs>
+  <bracket>
+    19.469999999999999 65.530000000000001</bracket>
+  <root>31.</root></problem>
+<problem>
+  <coeffs>
+    -166540032. 10501904. 117170. -7815. -8. 1.</coeffs>
+  <bracket>
+    -40.159999999999997 42.159999999999997</bracket>
+  <root>16.</root></problem>
+<problem>
+  <coeffs>
+    -35417004. -15991712. 843341. -7701. -85. 1.</coeffs>
+  <bracket>
+    -1.3100000000000001 66.310000000000002</bracket>
+  <root>31.</root></problem>
+<problem>
+  <coeffs>
+    -267939200. 7778920. 254149. -6989. -41. 1.</coeffs>
+  <bracket>
+    -36.229999999999997 39.229999999999997</bracket>
+  <root>31.</root></problem>
+<problem>
+  <coeffs>
+    -27672960. -154384. 362948. -6708. -47. 1.</coeffs>
+  <bracket>
+    -7.3399999999999999 57.340000000000003</bracket>
+  <root>10.</root></problem>
+<problem>
+  <coeffs>
+    31584000. 9209600. 668740. 19176. 233. 1.</coeffs>
+  <bracket>
+    -69.540000000000006 -24.460000000000001</bracket>
+  <root>-40.</root></problem>
+<problem>
+  <coeffs>
+    266716800. 11561760. -240024. -6986. 49. 1.</coeffs>
+  <bracket>
+    -52.969999999999999 47.969999999999999</bracket>
+  <root>-20.</root></problem>
+<problem>
+  <coeffs>
+    109511820. -7525984. -277889. 3423. 149. 1.</coeffs>
+  <bracket>
+    -70.180000000000007 10.18</bracket>
+  <root>-45.</root></problem>
+<problem>
+  <coeffs>
+    -108558324. 314864. 268255. -5565. -31. 1.</coeffs>
+  <bracket>
+    -17.41 40.409999999999997</bracket>
+  <root>38.</root></problem>
+<problem>
+  <coeffs>
+    26738712. 6577774. 493275. 15625. 213. 1.</coeffs>
+  <bracket>
+    -52.729999999999997 -26.27</bracket>
+  <root>-28.</root></problem>
+<problem>
+  <coeffs>
+    17567088. -469000. -243121. -6969. 1. 1.</coeffs>
+  <bracket>
+    -43.490000000000002 6.4900000000000002</bracket>
+  <root>-12.</root></problem>
+<problem>
+  <coeffs>
+    -78824160. -8041916. 267836. 3885. -154. 1.</coeffs>
+  <bracket>
+    -7.25 66.25</bracket>
+  <root>43.</root></problem>
+<problem>
+  <coeffs>
+    265010816. 14867776. 22118. -7877. -34. 1.</coeffs>
+  <bracket>
+    -30.129999999999999 55.130000000000003</bracket>
+  <root>-29.</root></problem>
+<problem>
+  <coeffs>
+    -42865200. -9047700. -312588. 1545. 134. 1.</coeffs>
+  <bracket>
+    -59.460000000000001 -6.54</bracket>
+  <root>-27.</root></problem>
+<problem>
+  <coeffs>
+    127506720. 12297616. 42366. -8297. -6. 1.</coeffs>
+  <bracket>
+    -30.140000000000001 54.140000000000001</bracket>
+  <root>-12.</root></problem>
+<problem>
+  <coeffs>
+    62483400. 7327385. -129388. -8466. 28. 1.</coeffs>
+  <bracket>
+    -34.359999999999999 28.359999999999999</bracket>
+  <root>-8.</root></problem>
+<problem>
+  <coeffs>
+    -21498554. -5156613. -301966. 212. 120. 1.</coeffs>
+  <bracket>
+    -73.329999999999998 -7.6699999999999999</bracket>
+  <root>-11.</root></problem>
+<problem>
+  <coeffs>
+    36465792. -6941672. 420962. -7425. -58. 1.</coeffs>
+  <bracket>
+    12.1 21.899999999999999</bracket>
+  <root>16.</root></problem>
+<problem>
+  <coeffs>
+    57953280. -2765728. -205168. 1098. 127. 1.</coeffs>
+  <bracket>
+    -43.439999999999998 11.44</bracket>
+  <root>-32.</root></problem>
+<problem>
+  <coeffs>
+    -434511000. 4658775. 1119290. 28904. 286. 1.</coeffs>
+  <bracket>
+    -87.670000000000002 -55.329999999999998</bracket>
+  <root>-63.</root></problem>
+<problem>
+  <coeffs>
+    6187104. -2070864. 131850. 209. -108. 1.</coeffs>
+  <bracket>
+    4.29 32.710000000000001</bracket>
+  <root>14.</root></problem>
+<problem>
+  <coeffs>
+    184756950. -2548539. -319032. -1478. 98. 1.</coeffs>
+  <bracket>
+    -56.219999999999999 20.219999999999999</bracket>
+  <root>-49.</root></problem>
+<problem>
+  <coeffs>
+    270286848. 9866496. -231056. -8572. 8. 1.</coeffs>
+  <bracket>
+    -47.159999999999997 35.159999999999997</bracket>
+  <root>-26.</root></problem>
+<problem>
+  <coeffs>
+    -4491060. 4195736. 298655. -3237. -95. 1.</coeffs>
+  <bracket>
+    -13.119999999999999 73.120000000000005</bracket>
+  <root>1.</root></problem>
+<problem>
+  <coeffs>
+    111936396. 10735160. 96967. -5841. -43. 1.</coeffs>
+  <bracket>
+    -39.93 64.930000000000007</bracket>
+  <root>-13.</root></problem>
+<problem>
+  <coeffs>
+    39758488. -40730862. 971597. 941. -165. 1.</coeffs>
+  <bracket>
+    1.78 78.219999999999999</bracket>
+  <root>76.</root></problem>
+<problem>
+  <coeffs>
+    -22668984. -2624076. 37710. 6795. 154. 1.</coeffs>
+  <bracket>
+    -45.630000000000003 -9.3699999999999992</bracket>
+  <root>-39.</root></problem>
+<problem>
+  <coeffs>
+    -309868416. 1920336. 598988. -7888. -71. 1.</coeffs>
+  <bracket>
+    -21.02 75.019999999999996</bracket>
+  <root>27.</root></problem>
+<problem>
+  <coeffs>
+    -413955360. -34908003. -902196. -4158. 116. 1.</coeffs>
+  <bracket>
+    -44.82 -27.18</bracket>
+  <root>-39.</root></problem>
+<problem>
+  <coeffs>
+    -287354466. -26272731. -698920. -2950. 106. 1.</coeffs>
+  <bracket>
+    -53.670000000000002 -21.329999999999998</bracket>
+  <root>-43.</root></problem>
+<problem>
+  <coeffs>
+    97713000. 3032250. -123085. -3643. 37. 1.</coeffs>
+  <bracket>
+    -34.289999999999999 35.289999999999999</bracket>
+  <root>-30.</root></problem>
+<problem>
+  <coeffs>
+    658916352. -30382848. 174812. 10883. -200. 1.</coeffs>
+  <bracket>
+    48.229999999999997 70.769999999999996</bracket>
+  <root>53.</root></problem>
+<problem>
+  <coeffs>
+    622079232. 22415432. -258658. -10617. 10. 1.</coeffs>
+  <bracket>
+    -60.850000000000001 51.850000000000001</bracket>
+  <root>-29.</root></problem>
+<problem>
+  <coeffs>
+    352066176. -1508976. -521280. -4200. 104. 1.</coeffs>
+  <bracket>
+    -53.219999999999999 23.219999999999999</bracket>
+  <root>-42.</root></problem>
+<problem>
+  <coeffs>
+    167024. -132032. -37099. 1999. 107. 1.</coeffs>
+  <bracket>
+    -43.549999999999997 0.55000000000000004</bracket>
+  <root>-4.</root></problem>
+<problem>
+  <coeffs>
+    399840. 67256. -3004. -762. -11. 1.</coeffs>
+  <bracket>
+    -11.779999999999999 9.7799999999999994</bracket>
+  <root>-7.</root></problem>
+<problem>
+  <coeffs>
+    1705440. 1542322. -161889. 1357. 129. 1.</coeffs>
+  <bracket>
+    -65.180000000000007 15.18</bracket>
+  <root>-1.</root></problem>
+<problem>
+  <coeffs>
+    -8890167. -168811. 73130. 330. -83. 1.</coeffs>
+  <bracket>
+    -10.380000000000001 50.380000000000003</bracket>
+  <root>13.</root></problem>
+<problem>
+  <coeffs>
+    91672560. -13321764. 307972. 6017. -178. 1.</coeffs>
+  <bracket>
+    9.8100000000000005 89.189999999999998</bracket>
+  <root>28.</root></problem>
+<problem>
+  <coeffs>
+    0. -2507232. 274792. -6444. -42. 1.</coeffs>
+  <bracket>
+    0.26000000000000001 25.739999999999998</bracket>
+  <root>14.</root></problem>
+<problem>
+  <coeffs>
+    -7525560. -1822706. 39523. 6825. 157. 1.</coeffs>
+  <bracket>
+    -50.530000000000001 -4.4699999999999998</bracket>
+  <root>-31.</root></problem>
+<problem>
+  <coeffs>
+    6240360. 1578134. -12205. -4335. -35. 1.</coeffs>
+  <bracket>
+    -22.579999999999998 18.579999999999998</bracket>
+  <root>-4.</root></problem>
+<problem>
+  <coeffs>
+    98530250. -22401975. 531340. 2294. -150. 1.</coeffs>
+  <bracket>
+    5.6500000000000004 69.349999999999994</bracket>
+  <root>65.</root></problem>
+<problem>
+  <coeffs>
+    -617460480. -2687424. 812668. -8683. -82. 1.</coeffs>
+  <bracket>
+    -23.199999999999999 55.200000000000003</bracket>
+  <root>52.</root></problem>
+<problem>
+  <coeffs>
+    19752480. -426156. -668708. -7687. 86. 1.</coeffs>
+  <bracket>
+    -85.090000000000003 4.0899999999999999</bracket>
+  <root>-6.</root></problem>
+<problem>
+  <coeffs>
+    126643200. 7696000. -155268. -9056. 3. 1.</coeffs>
+  <bracket>
+    -33.359999999999999 29.359999999999999</bracket>
+  <root>-16.</root></problem>
+<problem>
+  <coeffs>
+    689935752. -21804396. -287530. 18575. -242. 1.</coeffs>
+  <bracket>
+    57.049999999999997 61.950000000000003</bracket>
+  <root>58.</root></problem>
+<problem>
+  <coeffs>
+    -15510528. -15316704. 202896. 8878. -193. 1.</coeffs>
+  <bracket>
+    -0.31000000000000005 67.310000000000002</bracket>
+  <root>66.</root></problem>
+<problem>
+  <coeffs>
+    -470143824. -4466326. 602405. -4155. -101. 1.</coeffs>
+  <bracket>
+    -23.09 66.090000000000003</bracket>
+  <root>58.</root></problem>
+<problem>
+  <coeffs>
+    250848000. -32087600. 688620. 2716. -165. 1.</coeffs>
+  <bracket>
+    10.699999999999999 79.299999999999997</bracket>
+  <root>52.</root></problem>
+<problem>
+  <coeffs>
+    6912675. -1706715. -192354. -2470. 63. 1.</coeffs>
+  <bracket>
+    -48.479999999999997 2.48</bracket>
+  <root>-15.</root></problem>
+<problem>
+  <coeffs>
+    -131428440. 6836772. 135334. -8673. 6. 1.</coeffs>
+  <bracket>
+    -29.440000000000001 25.440000000000001</bracket>
+  <root>23.</root></problem>
+<problem>
+  <coeffs>
+    20247030. -5228141. 247122. -1940. -72. 1.</coeffs>
+  <bracket>
+    5.3600000000000003 40.640000000000001</bracket>
+  <root>31.</root></problem>
+<problem>
+  <coeffs>
+    -1354320000. -55269000. -262850. 15185. 236. 1.</coeffs>
+  <bracket>
+    -79.650000000000006 -45.350000000000001</bracket>
+  <root>-76.</root></problem>
+<problem>
+  <coeffs>
+    16761888. -1854072. -158948. -214. 95. 1.</coeffs>
+  <bracket>
+    -43.5 5.5</bracket>
+  <root>-22.</root></problem>
+<problem>
+  <coeffs>
+    -20088000. -5405400. 410130. -6801. -34. 1.</coeffs>
+  <bracket>
+    -2.5699999999999998 39.57</bracket>
+  <root>30.</root></problem>
+<problem>
+  <coeffs>
+    619375680. 25091724. -60424. -9655. -14. 1.</coeffs>
+  <bracket>
+    -40.810000000000002 75.810000000000002</bracket>
+  <root>-38.</root></problem>
+<problem>
+  <coeffs>
+    173901000. -28021630. 404957. 8349. -197. 1.</coeffs>
+  <bracket>
+    7.7699999999999996 83.230000000000004</bracket>
+  <root>65.</root></problem>
+<problem>
+  <coeffs>
+    -6194760. 1154402. 265823. 11973. 193. 1.</coeffs>
+  <bracket>
+    -51.590000000000003 -11.41</bracket>
+  <root>-38.</root></problem>
+<problem>
+  <coeffs>
+    196560. 172464. -26008. -1840. 73. 1.</coeffs>
+  <bracket>
+    -13.800000000000001 5.7999999999999998</bracket>
+  <root>-1.</root></problem>
+<problem>
+  <coeffs>
+    -55802160. -6826596. 404944. -1933. -112. 1.</coeffs>
+  <bracket>
+    -5.4699999999999998 46.469999999999999</bracket>
+  <root>34.</root></problem>
+<problem>
+  <coeffs>
+    86510268. 6566964. -80155. -5725. 7. 1.</coeffs>
+  <bracket>
+    -46.149999999999999 37.149999999999999</bracket>
+  <root>-13.</root></problem>
+<problem>
+  <coeffs>
+    -8347200. -567260. 183756. -7391. -6. 1.</coeffs>
+  <bracket>
+    -4.79 15.789999999999999</bracket>
+  <root>15.</root></problem>
+<problem>
+  <coeffs>
+    -43102920. 9395132. -681454. 19557. -236. 1.</coeffs>
+  <bracket>
+    14.550000000000001 68.450000000000003</bracket>
+  <root>46.</root></problem>
+<problem>
+  <coeffs>
+    40042080. -14355342. 325839. 3829. -151. 1.</coeffs>
+  <bracket>
+    3.6200000000000001 64.379999999999995</bracket>
+  <root>62.</root></problem>
+<problem>
+  <coeffs>
+    14227200. -5610840. 241162. 15425. 224. 1.</coeffs>
+  <bracket>
+    -75.209999999999994 2.21</bracket>
+  <root>-65.</root></problem>
+<problem>
+  <coeffs>
+    17982000. -3192270. 85513. 5229. -153. 1.</coeffs>
+  <bracket>
+    8.6600000000000001 73.340000000000003</bracket>
+  <root>15.</root></problem>
+<problem>
+  <coeffs>
+    123420024. -4754490. -368297. -1351. 113. 1.</coeffs>
+  <bracket>
+    -48.380000000000003 12.380000000000001</bracket>
+  <root>-39.</root></problem>
+<problem>
+  <coeffs>
+    -493416000. 16661880. 383804. -8386. -59. 1.</coeffs>
+  <bracket>
+    -48.840000000000003 64.840000000000003</bracket>
+  <root>24.</root></problem>
+<problem>
+  <coeffs>
+    35019888. -844436. -182340. -575. 102. 1.</coeffs>
+  <bracket>
+    -46.409999999999997 11.41</bracket>
+  <root>-19.</root></problem>
+<problem>
+  <coeffs>
+    -116688000. -8084060. -51756. 6865. 162. 1.</coeffs>
+  <bracket>
+    -49.759999999999998 -26.239999999999998</bracket>
+  <root>-33.</root></problem>
+<problem>
+  <coeffs>
+    12787632. -3909384. 176091. 983. -123. 1.</coeffs>
+  <bracket>
+    4.3200000000000003 35.68</bracket>
+  <root>23.</root></problem>
+<problem>
+  <coeffs>
+    -104527368. -14626695. -505184. -2554. 104. 1.</coeffs>
+  <bracket>
+    -40.700000000000003 -11.300000000000001</bracket>
+  <root>-37.</root></problem>
+<problem>
+  <coeffs>
+    -7672875. 1001765. 39506. -3942. 25. 1.</coeffs>
+  <bracket>
+    -14.6 24.600000000000001</bracket>
+  <root>7.</root></problem>
+</opencv_storage>

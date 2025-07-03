@@ -31,6 +31,6 @@ namespace NVL_App
 	public:
 		static vector<double> GetRoots(int count);
 		static string GetEquation(const vector<double>& roots);
-		static Vec2d GetBracket(Polynomial * polynomial, double root);
+		static Vec2d GetBracket(Polynomial * polynomial, double a, double b, double root);
 	};
 }

@@ -47,12 +47,33 @@ Engine::~Engine()
  */
 void Engine::Run()
 {
+    auto path = _pathHelper->GetPath("Problems", "problems.xml");
+
+    auto writer = FileStorage(path, FileStorage::WRITE | FileStorage::FORMAT_XML);
+    if (!writer.isOpened()) throw runtime_error("Failed to open output file");
+
     for (auto i = 0; i < 100; i++) 
     {
+        writer << "problem" << "{";
+
         auto roots = HelperUtils::GetRoots(5);
         cout << "Roots: ";
         for (const auto& root : roots) cout << root << " ";
-        auto equation = HelperUtils::GetEquation(roots);     
-        cout << ": " << equation << endl;
+        auto equation = HelperUtils::GetEquation(roots);
+        auto polynomial = Polynomial(equation);
+
+        writer << "coeffs" << polynomial.GetCoeffs();
+
+        cout << ": " << equation << " ";
+        auto bracket = HelperUtils::GetBracket(&polynomial, roots[1], roots[3], roots[2]);
+        cout << "Bracket: [" << bracket[0] << ", " << bracket[1] << "]" << "(" << roots[2] << ")" << endl;
+
+        writer << "bracket" << bracket;
+
+        writer << "root" << roots[2];
+
+        writer << "}";
     }
+
+    writer.release();
 }
