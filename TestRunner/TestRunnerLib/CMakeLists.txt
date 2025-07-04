@@ -10,6 +10,7 @@
 include_directories("../" "${LIBRARY_BASE}/NVLib")
 
 # Create Library
-add_library(TestRunnerLib STATIC
-    ArgUtils.cpp
+add_library (TestRunnerLib STATIC
+	ArgUtils.cpp
+	LoaderUtils.cpp
 )

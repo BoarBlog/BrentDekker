@@ -1,0 +1,25 @@
+<?xml version="1.0" ?> 
+
+<class> 
+
+<namespace>NVL_App</namespace> 
+<solution>TestRunnerLib</solution> 
+<name>LoaderUtils</name> 
+<description>The loader utilities that we are dealing with</description> 
+
+<includes>    
+    <include name="iostream" namespace="std" local="false" /> 
+    <include name="opencv2/opencv.hpp" namespace="cv" local="false" />
+    <include name="Problem.h" local="true" />
+</includes> 
+  
+<methods>    
+
+<!-- Load the problem set -->
+<method section="ProblemSet" modifiers="static" access="public" return="vector<unique_ptr<Problem>>" name="LoadProblemSet" description="Load the problem set from disk" inline="false"> 
+    <parameter type="const string&" name="path" description="The path that we are loading from" /> 
+</method> 
+
+</methods> 
+
+</class> 
