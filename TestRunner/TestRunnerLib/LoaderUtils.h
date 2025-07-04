@@ -21,6 +21,8 @@ namespace NVL_App
 	class LoaderUtils
 	{
 	public:
-		static vector<unique_ptr<Problem>> LoadProblemSet(const string& path);
+		static vector<shared_ptr<Problem>> LoadProblemSet(const string& path);
+	private:
+		static shared_ptr<Problem> ReadProblem(const cv::FileNode& node);
 	};
 }

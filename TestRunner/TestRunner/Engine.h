@@ -13,7 +13,9 @@ using namespace std;
 
 #include <NVLib/Logger.h>
 #include <NVLib/Path/PathHelper.h>
+
 #include <TestRunnerLib/ArgUtils.h>
+#include <TestRunnerLib/LoaderUtils.h>
 
 namespace NVL_App
 {

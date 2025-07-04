@@ -45,5 +45,8 @@ Engine::~Engine()
  */
 void Engine::Run()
 {
-    // TODO: Execution Logic
+    _logger->Log(1, "Load the problems that we dealing with");
+    auto problemPath = _pathHelper->GetPath("Problems", "problems.xml");
+    auto problems = LoaderUtils::LoadProblemSet(problemPath);
+    _logger->Log(1, "Problem Count: %i", problems.size());
 }
