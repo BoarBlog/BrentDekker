@@ -1,0 +1,39 @@
+<?xml version="1.0" ?> 
+
+<class terminator="true"> 
+
+<namespace>NVL_App</namespace> 
+<solution>TestRunnerLib</solution> 
+<name>SolverBase</name> 
+<description>Base class for a solver</description> 
+
+<includes>    
+    <include name="iostream" namespace="std" local="false" /> 
+    <include name="opencv2/opencv.hpp" namespace="cv" local="false" />
+    <include name="EvalBase.h" local="true" /> 
+</includes> 
+
+<variables> 
+    <variable type="int" name="iterationCount" code="10" />
+    <variable type="EvalBase*" name="evaluator" code="10" />
+</variables> 
+
+<constructors> 
+
+<!-- Main Constructor -->
+<constructor type="custom" inline="false"> 
+    <parameter type="EvalBase *" name="evaluator" description="The evaluator that we are dealing with" /> 
+</constructor> 
+
+</constructors>    
+
+<methods>    
+
+<!-- Solve -->
+<method section="Solve" modifier="virtual" access="public" return="double" name="Solve" description="Solve a polynomial" inline="true"> 
+    <parameter type="const Vec2d&" name="bracket" description="The bracket starting point" /> 
+</method> 
+
+</methods> 
+
+</class> 

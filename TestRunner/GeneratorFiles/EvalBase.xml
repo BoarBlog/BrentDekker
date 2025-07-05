@@ -1,0 +1,36 @@
+<?xml version="1.0" ?> 
+
+<class> 
+
+<namespace>NVL_App</namespace> 
+<solution>TestRunnerLib</solution> 
+<name>EvalBase</name> 
+<description>Base class for the evaluator</description> 
+
+<includes>    
+    <include name="iostream" namespace="std" local="false" /> 
+    <include name="opencv2/opencv.hpp" namespace="cv" local="false" />
+</includes> 
+
+<constructors> 
+
+<!-- Main Constructor -->
+<constructor type="empty" inline="false" /> 
+
+</constructors>    
+
+<methods>    
+
+<!-- Evaluator -->
+<method section="Evaluator" modifiers="virtual" access="public" return="double" name="Evaluate" description="Evaluate the provider" inline="true"> 
+    <parameter type="double" name="value" description="The value that we dealing with" /> 
+</method> 
+
+<!-- Gradient -->
+<method section="Gradient" modifiers="virtual" access="public" return="double" name="Gradient" description="Get the gradient" inline="true"> 
+    <parameter type="double" name="value" description="The value that we are dealing with" /> 
+</method> 
+
+</methods> 
+
+</class> 
