@@ -13,4 +13,5 @@ include_directories("../" "${LIBRARY_BASE}/NVLib")
 add_library (TestRunnerLib STATIC
 	ArgUtils.cpp
 	LoaderUtils.cpp
+	PolyProblem.cpp
 )

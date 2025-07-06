@@ -1,0 +1,48 @@
+<?xml version="1.0" ?> 
+
+<class base="ProblemBase"> 
+
+<namespace>NVL_App</namespace> 
+<solution>TestRunnerLib</solution> 
+<name>PolyProblem</name> 
+<description>Utilities for finding the model update for a linear model during training</description> 
+
+<includes>    
+    <include name="iostream" namespace="std" local="false" /> 
+    <include name="opencv2/opencv.hpp" namespace="cv" local="false" />
+    <include name="ProblemBase.h" local="true" />
+</includes> 
+
+<variables> 
+    <variable type="vector<double>" name="coeffs" code="10" /> 
+</variables> 
+
+<constructors> 
+
+<!-- Main Constructor -->
+<constructor type="custom" inline="false"> 
+    <parameter type="const vector<double>" name="coeffs" description="The coefficients for the polynomial" /> 
+</constructor> 
+
+</constructors>    
+
+<methods>    
+
+<!-- Evaluator -->
+<method section="Evaluator" modifiers="virtual" access="public" return="double" name="Evaluate" description="Evaluate the provider" inline="false"> 
+    <parameter type="double" name="value" description="The value that we dealing with" /> 
+</method> 
+
+<!-- Gradient -->
+<method section="Gradient" modifiers="virtual" access="public" return="double" name="Gradient" description="Get the gradient" inline="false"> 
+    <parameter type="double" name="value" description="The value that we are dealing with" /> 
+</method> 
+
+</methods> 
+
+<tests> 
+    <test name="eval_test" description="" exception="false" /> 
+    <test name="grad_test" description="" exception="false" /> 
+</tests> 
+
+</class> 

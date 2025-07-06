@@ -16,11 +16,11 @@ using namespace cv;
 
 namespace NVL_App
 {
-	class EvalBase
+	class ProblemBase
 	{
 	public:
-		EvalBase() {}
-		virtual double Evaluate(double value) = 0;
-		virtual double Gradient(double value) = 0;
+		ProblemBase() {}
+		virtual double Evaluate(double solution) = 0;
+		virtual double Gradient(double solution) = 0;
 	};
 }
