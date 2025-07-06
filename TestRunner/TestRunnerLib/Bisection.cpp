@@ -33,5 +33,43 @@ Bisection::Bisection(ProblemBase * evaluator) : SolverBase(evaluator)
  */
 double Bisection::Solve(const Vec2d& bracket)
 {
-	throw runtime_error("Not implemented");
+	auto f = [this](double x) { return GetEvaluator()->Evaluate(x); };
+
+	double a = bracket[0];
+	double b = bracket[1];
+	double tol = GetTolerance(); // Tolerance for convergence
+	int max_iter = GetMaxIterations(); // Maximum iterations
+
+	// Check if the initial interval is valid
+  	if (f(a) * f(b) >= 0) 
+	{
+        std::cerr << "Invalid interval: f(a) and f(b) must have opposite signs." << std::endl;
+        return std::numeric_limits<double>::quiet_NaN();
+    }
+
+    double c;
+    for (int i = 0; i < max_iter; ++i) 
+	{
+        c = (a + b) / 2;
+        double fc = f(c);
+
+        // Check if solution is found or interval is small enough
+        if (std::abs(fc) < tol || (b - a) / 2 < tol) 
+		{
+            std::cout << "Converged in " << i + 1 << " iterations." << std::endl;
+            return c;
+        }
+
+        // Narrow down the interval
+        if (f(a) * fc < 0)
+            b = c;
+        else
+            a = c;
+		
+		IncrementCount();
+	}
+
+
+    std::cerr << "Maximum iterations reached without convergence." << std::endl;
+    return c;
 }
