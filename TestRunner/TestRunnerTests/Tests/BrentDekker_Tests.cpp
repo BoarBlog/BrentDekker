@@ -9,6 +9,7 @@
 #include <gtest/gtest.h>
 
 #include <TestRunnerLib/BrentDekker.h>
+#include <TestRunnerLib/PolyProblem.h>
 using namespace NVL_App;
 
 //--------------------------------------------------
@@ -20,13 +21,20 @@ using namespace NVL_App;
  */
 TEST(BrentDekker_Test, confirm_refinement)
 {
-	FAIL() << "Not implemented";
+// Setup
+	auto coeffs = std::vector<double>{ -244618248.0, 6613865.0, 321436.0, -5154.0, -76.0, 1.0 };
+	auto bracket = Vec2d(-26.039999999999999, 48.039999999999999);
 
-	// Setup
+	auto problem = PolyProblem(coeffs);
+
+	auto solver = BrentDekker(&problem);
 
 	// Execute
+	auto solution = solver.Solve(bracket);
 
 	// Confirm
+	ASSERT_NEAR(solution, 23, 1e-5);
+	ASSERT_GT(solver.GetIterationCount(), 20);
 
-	// Teardown
+	cout << "Iterations Used: " << solver.GetIterationCount() << endl;
 }
