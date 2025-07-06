@@ -16,4 +16,5 @@ add_library (TestRunnerLib STATIC
 	PolyProblem.cpp
 	Bisection.cpp
 	Secant.cpp
+	BrentDekker.cpp
 )
