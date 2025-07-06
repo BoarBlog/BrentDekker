@@ -54,20 +54,14 @@ double Bisection::Solve(const Vec2d& bracket)
         double fc = f(c);
 
         // Check if solution is found or interval is small enough
-        if (std::abs(fc) < tol || (b - a) / 2 < tol) 
-		{
-            return c;
-        }
-
+        if (std::abs(fc) < tol || (b - a) / 2 < tol) return c;
+        
         // Narrow down the interval
-        if (f(a) * fc < 0)
-            b = c;
-        else
-            a = c;
+        if (f(a) * fc < 0) b = c;
+        else a = c;
 		
 		IncrementCount();
 	}
-
 
     std::cerr << "Maximum iterations reached without convergence." << std::endl;
     return c;
