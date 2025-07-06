@@ -56,7 +56,6 @@ double Bisection::Solve(const Vec2d& bracket)
         // Check if solution is found or interval is small enough
         if (std::abs(fc) < tol || (b - a) / 2 < tol) 
 		{
-            std::cout << "Converged in " << i + 1 << " iterations." << std::endl;
             return c;
         }
 
