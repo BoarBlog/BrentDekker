@@ -17,7 +17,9 @@ add_executable (TestRunnerTests
 	Tests/Example_Tests.cpp
 	Tests/PolyProblem_Tests.cpp
 	Tests/Bisection_Tests.cpp
+	Tests/Secant_Tests.cpp
 )
+
 
 # Add link libraries
 target_link_libraries(TestRunnerTests TestRunnerLib NVLib ${OpenCV_LIBS} OpenSSL::SSL uuid GTest::Main)

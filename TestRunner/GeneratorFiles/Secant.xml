@@ -1,0 +1,38 @@
+<?xml version="1.0" ?> 
+
+<class base="SolverBase"> 
+
+<namespace>NVL_App</namespace> 
+<solution>TestRunnerLib</solution> 
+<name>Secant</name> 
+<description>Add an implementation of the secant method for problem solving</description> 
+
+<includes>    
+    <include name="iostream" namespace="std" local="false" /> 
+    <include name="opencv2/opencv.hpp" namespace="cv" local="false" />
+    <include name="ProblemBase.h" local="true" />
+</includes> 
+
+<constructors> 
+
+<!-- Main Constructor -->
+<constructor type="custom" inline="false"> 
+    <parameter type="ProblemBase *" name="evaluator" description="The evaluator that we are using to validate our candidate solutions" /> 
+</constructor> 
+
+</constructors>    
+
+<methods>    
+
+<!-- Solve -->
+<method section="Solve" modifier="virtual" access="public" return="double" name="Solve" description="Solve a polynomial" inline="false"> 
+    <parameter type="const Vec2d&" name="bracket" description="The bracket starting point" /> 
+</method> 
+
+</methods> 
+
+<tests> 
+    <test name="confirm_refinement" description="Verify that the refinement process worked as expected" exception="false" />    
+</tests> 
+
+</class> 
