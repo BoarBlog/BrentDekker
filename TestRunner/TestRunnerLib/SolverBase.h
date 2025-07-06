@@ -14,7 +14,7 @@ using namespace std;
 #include <opencv2/opencv.hpp>
 using namespace cv;
 
-#include "EvalBase.h"
+#include "ProblemBase.h"
 
 namespace NVL_App
 {
@@ -22,12 +22,15 @@ namespace NVL_App
 	{
 	private:
 		int _iterationCount;
-		EvalBase* _evaluator;
+		ProblemBase* _evaluator;
 	public:
-		SolverBase(EvalBase * evaluator) : _iterationCount(0), _evaluator(evaluator) {}
+		SolverBase(ProblemBase * evaluator) : _iterationCount(0), _evaluator(evaluator) {}
 
 		virtual double Solve(const Vec2d& bracket) = 0;
 
 		inline int& GetIterationCount() { return _iterationCount; }
+	protected:
+		inline ProblemBase* GetEvaluator() { return _evaluator; }
+		inline void IncrementCount() { _iterationCount++; }
 	};
 }

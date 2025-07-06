@@ -14,4 +14,5 @@ add_library (TestRunnerLib STATIC
 	ArgUtils.cpp
 	LoaderUtils.cpp
 	PolyProblem.cpp
+	Bisection.cpp
 )
